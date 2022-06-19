@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200&family=Pacifico&display=swap');
+
+
+body {
+    background-color: #000000;
+}
+
+header {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    
+}
+
+.tittle {
+
+    font-family: 'Pacifico', cursive;
+    width: 45%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+	text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+    padding: 30px;
+    margin-left: 100px;
+    margin-top: 60px;
+
+}
+
+.imagen {
+
+    height: 350px;
+    width: 350px;
+    border-radius: 100px;
+    display: block;
+    padding: 30px;
+}
+
+.profile {
+    width: 40%;
+
+}
+
+.icons {
+    align-items: center;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+hr {
+    height: 2px;
+    background-color:rgba(0,178,255,1);
+  }
+
+
+.card {
+    max-width: 200px;
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+    transition: 0.3s;
+    
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgb(255, 255, 255);
+    
+}
+
+.container {
+    padding: 2px 16px;
+   
+}
+
+p {
+    color:#fff;
+    text-align: justify;
+}
