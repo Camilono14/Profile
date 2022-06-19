@@ -57,7 +57,7 @@ header {
 .icons {
     align-items: center;
     border-radius: 5px;
-    background-color: #fff;
+    color: #fff;
     padding: 5px;
     margin-bottom: 20px;
 }
@@ -88,4 +88,22 @@ hr {
 p {
     color:#fff;
     text-align: justify;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-bottom: 40px;
+  }
+
+.socialmedia{
+    align-items: center;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+    margin-bottom: 20px;
 }
