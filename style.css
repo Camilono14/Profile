@@ -3,11 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200&family=Permanent+Marker&display=swap');
 
 a {
-    text-decoration: none;color: white;
+    text-decoration: none;
+    color: white;
 }
 
 
 body {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
     background-color: #272525;
 }
 
@@ -18,7 +22,7 @@ header {
     flex-flow: row wrap;
     justify-content: space-around;
 
-    
+
 }
 
 .tittle {
@@ -29,19 +33,19 @@ header {
     text-align: center;
     text-transform: uppercase;
     color: #fff;
-	text-shadow:
-		0 0 5px rgba(0,178,255,1),
-		0 0 10px rgba(0,178,255,1),
-		0 0 20px rgba(0,178,255,1),
-		0 0 40px rgba(38,104,127,1),
-		0 0 80px rgba(38,104,127,1),
-		0 0 90px rgba(38,104,127,1),
-		0 0 100px rgba(38,104,127,1),
-		0 0 140px rgba(38,104,127,1),
-		0 0 180px rgba(38,104,127,1);
+    text-shadow:
+        0 0 5px rgba(0, 178, 255, 1),
+        0 0 10px rgba(0, 178, 255, 1),
+        0 0 20px rgba(0, 178, 255, 1),
+        0 0 40px rgba(38, 104, 127, 1),
+        0 0 80px rgba(38, 104, 127, 1),
+        0 0 90px rgba(38, 104, 127, 1),
+        0 0 100px rgba(38, 104, 127, 1),
+        0 0 140px rgba(38, 104, 127, 1),
+        0 0 180px rgba(38, 104, 127, 1);
     padding: 30px;
-    margin-left: 142px;
-    margin-top: 22px;
+    margin-left: 190px;
+    margin-top: 35px;
 
 }
 
@@ -53,16 +57,16 @@ header {
     text-align: left;
     text-transform: uppercase;
     color: #fff;
-	text-shadow:
-		0 0 5px rgba(0,178,255,1),
-		0 0 10px rgba(0,178,255,1),
-		0 0 20px rgba(0,178,255,1),
-		0 0 40px rgba(38,104,127,1),
-		0 0 80px rgba(38,104,127,1),
-		0 0 90px rgba(38,104,127,1),
-		0 0 100px rgba(38,104,127,1),
-		0 0 140px rgba(38,104,127,1),
-		0 0 180px rgba(38,104,127,1);
+    text-shadow:
+        0 0 5px rgba(0, 178, 255, 1),
+        0 0 10px rgba(0, 178, 255, 1),
+        0 0 20px rgba(0, 178, 255, 1),
+        0 0 40px rgba(38, 104, 127, 1),
+        0 0 80px rgba(38, 104, 127, 1),
+        0 0 90px rgba(38, 104, 127, 1),
+        0 0 100px rgba(38, 104, 127, 1),
+        0 0 140px rgba(38, 104, 127, 1),
+        0 0 180px rgba(38, 104, 127, 1);
     margin-left: 100px;
 
 }
@@ -73,14 +77,13 @@ header {
     width: 350px;
     border-radius: 50%;
     display: block;
-    padding: 30px;
     border-style: solid;
-    border-image: linear-gradient(to right, red 20%, green 20%, green 40%, blue 40%, blue 60%, maroon 60%, maroon 80%, chocolate 80%); 
-    border-image-slice: 1;
+    border-color: red green blue purple;
+    margin-left: 90px;
 }
 
 .profile {
-    width: 40%;
+    width: 30%;
 
 }
 
@@ -94,29 +97,29 @@ header {
 
 hr {
     height: 2px;
-    background-color:rgba(0,178,255,1);
-  }
+    background-color: rgba(0, 178, 255, 1);
+}
 
 
 .card {
     max-width: 200px;
     box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
     transition: 0.3s;
-    
+
 }
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgb(255, 255, 255);
-    
+
 }
 
 .container {
     padding: 2px 16px;
-   
+
 }
 
 p {
-    color:#fff;
+    color: #fff;
     text-align: justify;
     font-family: 'Roboto Mono', monospace;
 
@@ -128,56 +131,57 @@ p {
     justify-content: space-around;
     margin-top: 50px;
     padding-bottom: 40px;
-  }
+}
 
-.socialmedia{
+.socialmedia {
     align-items: center;
     border-radius: 5px;
     color: #fff;
     padding: 5px;
-    margin-bottom: 20px;
-    margin-left: 546px;
+    margin-bottom: 90px;
+    margin-left: 717px;
+    margin-top: 50px;
 }
 
 .box {
     display: flex;
     width: 100%;
     height: 8px;
-    margin: 5px 0px 60px 0px;
-  }
-  
-  .box-sm {
+    margin: 40px 0px 60px 0px;
+}
+
+.box-sm {
     height: 4px;
     margin: 0;
     flex-grow: 1;
     transition: all .8s ease-in-out;
     cursor: pointer;
-  }
-  
-  .box-sm:hover {
+}
+
+.box-sm:hover {
     flex-grow: 12;
-  }
-  
-  .red {
+}
+
+.red {
     background-color: #FF5852;
-  }
-  
-  .orange {
+}
+
+.orange {
     background-color: #FF9000;
-  }
-  
-  .yellow {
+}
+
+.yellow {
     background-color: #FFD300;
-  }
-  
-  .green {
+}
+
+.green {
     background-color: #3DCD49;
-  }
-  
-  .blue {
+}
+
+.blue {
     background-color: #0089D7;
-  }
-  
-  .purple {
+}
+
+.purple {
     background-color: #9E44C4;
-  }
+}
